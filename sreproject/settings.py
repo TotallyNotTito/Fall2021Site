@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'sreproject.wsgi.application'
 DATABASES = { 'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'sreproject',
-        'USER': 'matt',
-        'PASSWORD':'oolongcha',
+        'USER': 'user',
+        'PASSWORD':'password',
         'HOST': 'localhost',
         'PORT': '', 
     }
